@@ -1,0 +1,176 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 450px;
+    height: 700px;
+    margin: -30px auto;
+    padding-top: 0px;
+    text-align: center;
+    background-image: url("./bg.jpg");
+}
+
+#title{
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+table{
+    margin: 40px auto;
+}
+
+
+.w1,.w2,.w3,.w4,.w5{
+    background: rgb(246, 177, 250);
+    border: 1px solid  rgb(246, 177, 250);
+    border-radius: 5px;
+    width: 45px;
+    height: 55px;
+}
+
+td > p {
+    color: rgb(246, 177, 250);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#puzBelow{
+    margin: -20px auto;
+}
+
+#wordP{
+    position: relative;
+    height: 40px; 
+    text-align: center;
+    margin: -30px auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#wordP > #wordG{
+    background-color: white;
+    border-radius: 10px;
+}
+
+#bulb{
+    color: pink;
+    width: 20px;
+    height: 20px;
+}
+
+#bulb > .material-symbols-outlined{
+   position: absolute;
+   margin-left: 340px;
+   background: rgba(75, 47, 77, 0.7);
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   border-radius: 100%;
+}
+
+#bulb > .material-symbols-outlined:hover{
+    cursor: pointer;
+    color: yellow;
+    border: 1px solid rgb(43, 33, 42);
+}
+
+#block{
+    position: absolute;
+    background:rgba(75, 47, 77, 0.7);
+    border: 1px solid rgba(75, 47, 77, 0.7);
+    border-radius: 100%;
+    width: 220px;
+    height: 220px;
+    margin: 25px auto;
+    margin-left: 115px;
+}
+
+#shift{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    margin-left: 25px;
+    margin-top: 205px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#icon{
+    position: absolute;
+    margin-top: -280px;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: none;
+    background: none;
+}
+
+#icon > .material-symbols-outlined{
+    color: rgb(246, 177, 250);
+    line-height: 35px;
+}
+
+#icon > .material-symbols-outlined:hover{
+    background-color: rgba(232, 223, 234, 0.3);
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 100%;
+}
+
+#shift > div {
+    cursor: pointer;
+}
+
+#shift > #num1{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 100%;
+    margin-top: -170px;
+    margin-left: 67px;
+}
+
+#shift > #num2{
+    position: absolute;
+    width: 35px;
+    line-height: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin-top: -120px;
+}
+
+#shift > #num3{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 100%;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+
+#shift > #num4{
+    position: absolute;
+    width: 35px;
+    line-height: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin-top: -50px;
+    margin-left: 110px;
+}
+
+#shift > #num5{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 100%;
+    margin-top: -120px;
+    margin-left: 135px;
+} 
