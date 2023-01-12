@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rubik+Spray+Paint&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./SeraAltuner_style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"> <!--jquery UI-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="game">  
+   <div id="container">
+    <div id="header">
+        <h4 id="title">CTIS 255 - Project - Sera ALTUNER</h4>
+    </div>
+
+    <div id="puzzle">
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td class=" w2"><p class="unsel">G</p></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td class="w1"><p class="unsel">A</p></td>
+                <td class="w1"><p class="unsel">G</p></td>
+                <td class=" w1 w2"><p class="unsel">O</p></td>
+                <td></td>
+                <td class=" w4 w5"><p class="unsel">L</p></td>
+                <td class=" w5"><p class="unsel">O</p></td>
+                <td class=" w5"><p class="unsel">A</p></td>
+                <td class=" w5"><p class="unsel">N</p></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td class=" w2"><p class="unsel">A</p></td>
+                <td></td>
+                <td class=" w4"><p class="unsel">O</p></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td class=" w3"><p class="unsel">A</p></td>
+                <td class=" w3 w2"><p class="unsel">L</p></td>
+                <td class=" w3"><p class="unsel">O</p></td>
+                <td class=" w3 w4"><p class="unsel">N</p></td>
+                <td class=" w3"><p class="unsel">G</p></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class=" w4"><p class="unsel">G</p></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+
+        <div id="bulb">
+            <span class="material-symbols-outlined">
+                lightbulb
+                </span>
+        </div>
+    </div>
+
+    <div id="wordP">
+        <span id="wordG"></span>
+    </div>
+
+    <div id="block">
+        <div id="shift">
+                <div id="num1">A</div>
+                <div id="num2">G</div>
+                <div id="num3">O</div>
+                <div id="num4">L</div>
+                <div id="num5">N</div>
+        </div>
+
+       <div id="shuffleIcon">
+        <button id="icon"><span class="material-symbols-outlined">
+            shuffle
+            </span></button>
+       </div>
+    </div>
+   </div> 
+</div>
+
+<script src="./SeraAltuner_script.js"></script>
+</body>
+</html>
